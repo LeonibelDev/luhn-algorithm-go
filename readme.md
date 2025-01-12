@@ -57,7 +57,7 @@ Validates a credit card number based on the Luhn algorithm. Takes an integer (th
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/luhn-algorithm-go.git
+   git clone https://github.com/LeonibelDev/luhn-algorithm-go
    cd luhn-algorithm-go
    ```
 
