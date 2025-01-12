@@ -56,7 +56,3 @@ func validateCC(ccnumbers int) bool {
 
 	return final%10 == 0
 }
-
-func main() func(int) bool {
-	return validateCC
-}
