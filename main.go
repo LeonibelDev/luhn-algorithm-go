@@ -3,7 +3,7 @@ Luhn algorithm
 Ref: https://en.wikipedia.org/wiki/Luhn_algorithm
 */
 
-package main
+package luhn
 
 import (
 	"fmt"
@@ -55,4 +55,8 @@ func validateCC(ccnumbers int) bool {
 	}
 
 	return final%10 == 0
+}
+
+func main() func(int) bool {
+	return validateCC
 }
